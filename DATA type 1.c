@@ -1,0 +1,16 @@
+//write a number that prints an interger number
+/*write a program that prints a floating,double number, and character
+*/
+/*write a program that takes an integer and print that number
+*/
+#include<stdio.h>
+int main()
+{
+    float num1=10.25;
+    double num2=10.546546423468;
+    char ch='a';
+    printf("num1=%f\n",num1);
+    printf("num2=%lf\n",num2);
+    printf("ch=%c",ch);
+    return 0;
+}

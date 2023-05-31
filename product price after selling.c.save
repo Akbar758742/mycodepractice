@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()//product price after selling on 10% less
+{
+    float x,y,z;
+    printf("enter a book price that you have bought:");
+    scanf("%f",&x);
+    y=((x*10)/100);
+    z=x-y;
+    printf("the book price after selling 10 percent less %.3f taka",z);
+    return 0;
+}

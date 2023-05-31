@@ -1,0 +1,5 @@
+#include<stdio.h>
+int mai()
+{ int i;
+for(i=2;i<23;i=i*3)
+printf("%d",}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+    int sum=0,a=1,n;
+    printf("enter the last number of series:");
+    scanf("%d",&n);
+    printf("1+2+3....+%d",n);
+    while(a<=n)
+    {
+        sum=sum+a;
+        a=a+1;
+    }printf("=%d",sum);3
+}
