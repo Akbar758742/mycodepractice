@@ -3,4 +3,4 @@ age=38
  age=34
 price=34.3434
 print(price)
-print(age)
+print(age)`1
