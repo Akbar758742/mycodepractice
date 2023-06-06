@@ -8,7 +8,6 @@ int mul()
             if((i%5==0)||(i%3==0))
             {
                 sum=sum+i;
-
             }
         }
         return sum;
@@ -16,15 +15,12 @@ int mul()
 
 int main()
 {
-    int t,n,i;
+    int t;
     cin>>t;
     while(t--)
     {
-
-
         cout<<mul()<<endl;
     }
-
     return 0;
 }
 
