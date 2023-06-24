@@ -79,8 +79,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/my code/c practice",
-      "program": "d:/my code/c practice/build/Debug/outDebug",
+      "cwd": "d:/my code",
+      "program": "d:/my code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
