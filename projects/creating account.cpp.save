@@ -9,22 +9,22 @@ int main()
      cin>>user;
     cout<< "choose password:";
     string pass;
-    cin>>pass;
+    getline(cin,pass);
     cout<< "account created!"<<endl;
     cout<< "please enter your information"<<endl;
     cout<< "username:";
     string username;
-    cin>>username;
+    getline(cin,username);
     cout<< "password:";
     string password;
-   cin>>password;
+    getline(cin,password);
     while((user!=username)&&(pass!=password))
     {
         cout<< "wrong username or password please try again"<<endl;
         cout<< "username:";
-       cin>>username;
+        getline(cin,username);
         cout<< "password:";
-        cin>>password;
+        getline(cin,password);
     }
     cout<< "welcome to the app";
 
