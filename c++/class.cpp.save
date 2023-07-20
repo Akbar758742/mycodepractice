@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+class student{
+  public:
+      int id;
+      double gpa;
+      void dispaly()
+      {
+          cou
+      }
+
+};
+int main()
+{
+    student akbar,asif;
+    akbar.id=11;
+    akbar.gpa=3.3;
+    cout<<akbar.id<<"    "<<akbar.gpa<<endl;
+    asif.id=13;
+    asif.gpa=3.44;
+    cout<<asif.id<<"    "<<asif.gpa<<endl;
+return 0;
+}
+
