@@ -3,11 +3,20 @@
 using namespace std;
 
 int main(){
-    string username = "cool";
-    string password = "lol";
+    system("color 3f");
+    cout<< "Feel free to create your unique username and password to access our exclusive services and personalized experiences.\n";
+    cout<< "Your security is our utmost priority."<<endl<<endl;
+    string username ;
+    string password ;
+    cout<< "Enter your username:";
+    getline(cin,username);
+    cout<< "Enter your password:";
+    getline(cin,password);
+    cout<< "Account created!";
+
     string user;
     string pass;
-    cout << "Hello, Welcome to the App Login!" << std::endl;
+    cout << "\n\nHello, Welcome to the App Login!" <<endl;
     cout << "Enter Your username: ";
     cin >> user;
     if (user == username){
