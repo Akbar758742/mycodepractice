@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main ()
+{
+    double x=10.22;
+    double result= log(x);
+    printf("result=%lf\n",result);
+    
+}

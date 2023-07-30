@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-int main(){
+int main()
+{
     system("color 3f");
     cout<< "Feel free to create your unique username and password to access our exclusive services and personalized experiences.\n";
     cout<< "Your security is our utmost priority."<<endl<<endl;
@@ -19,17 +20,21 @@ int main(){
     cout << "\n\nHello, Welcome to the App Login!" <<endl;
     cout << "Enter Your username: ";
     cin >> user;
-    if (user == username){
-        cout << "Enter password: " << endl;
+    if (user == username)
+    {
+        cout << "Enter password: ";
         cin >> pass;
-        if (pass == password){
+        if (pass == password)
+        {
             cout << "Successful Login!" << endl;
         }
-        else {
+        else
+        {
             cout << "Incorrect Password!" << endl;
         }
     }
-    else {
+    else
+    {
         cout << "Incorrect Username!" << endl;
     }
 }

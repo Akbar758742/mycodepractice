@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main ()
+
+
+
+{
+
+    char char1,char2;
+    printf("Enter two alphabet:");
+    scanf("%c %c",&char1,&char2);
+    if(char1>char2)
+    {
+        printf("between both alphabet(%c %c) %c is bigger and %c is smaller\n",char1,char2);
+    }
+    else
+        printf("between both alphabet( %c is smaller and %c is bigger",char2,char1);
+
+
+    return main();
+
+}

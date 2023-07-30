@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+  int p=4,r=p+q+r,sum=r+100;
+  printf(" the value %d\n",sum);
+  ret
+}

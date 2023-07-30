@@ -1,0 +1,11 @@
+
+#include<stdio.h> //write a programm to print 2 numrs and 1char
+int main ()
+{
+    int num1,num2;
+    char a1;
+    printf("enter 2 numbers and a character:");
+    scanf("%d%d %c",&num1,&num2,&a1);
+
+
+}

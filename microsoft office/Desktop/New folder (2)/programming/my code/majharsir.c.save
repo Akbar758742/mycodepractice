@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main ()
+{
+    int x,y;
+    int temp;
+    printf("enter two number please:\n");
+    scanf("%d%d");
+    temp=x;
+    x=y;
+    y=temp;
+    printf("%d",x,y);
+}

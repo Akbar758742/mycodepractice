@@ -1,0 +1,42 @@
+h1{
+    color:rgb(18, 236, 18);
+   
+}
+p{
+    color:#9681EB ;
+
+}
+button{
+    color:rgb(0, 0, 217);
+    background-color: rgb(216, 21, 7);
+}
+body{
+    background-color:#322653;
+}
+.1st{
+    background-color: brown;
+    color: rgba(203, 24, 24, 0.721);
+}
+.class{
+    color: wheat;
+    background-color:#9681EB ;
+}
+.akbar{
+    background-color:aliceblue;
+    color: blue;
+}
+.button{
+    background-color: blueviolet;
+}
+.myname{
+    color: beige;
+    background-color: aqua;
+}
+#sigma{
+    font-weight: bold;
+    font-size:small;
+}
+.new{
+    font-weight: lighter;
+background-color: rgb(255, 0, 247);
+}
